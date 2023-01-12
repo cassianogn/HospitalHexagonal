@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\atendimento\Dti.HospitalDDD.Atendimento.Domain\Dti.HospitalDDD.Atendimento.Domain.csproj" />
+    <ProjectReference Include="..\..\src\Dti.HospitalDDD.Application\Dti.HospitalDDD.Atendimento.Application.csproj" />
+  </ItemGroup>
+
+</Project>
